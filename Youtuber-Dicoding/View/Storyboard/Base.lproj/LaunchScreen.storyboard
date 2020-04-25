@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="llH-Kg-bIK">
+            <objects>
+                <viewController id="bbU-6u-gYf" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ejh-vq-gx8">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Youtubers Indonesia" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9JH-2R-Zbq">
+                                <rect key="frame" x="60.5" y="430" width="293" height="36"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.60392156860000001" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="9JH-2R-Zbq" firstAttribute="leading" secondItem="y0g-My-8Lm" secondAttribute="leading" constant="60.5" id="CHe-xw-p9v"/>
+                            <constraint firstItem="9JH-2R-Zbq" firstAttribute="centerY" secondItem="ejh-vq-gx8" secondAttribute="centerY" id="clv-sX-7i6"/>
+                            <constraint firstItem="y0g-My-8Lm" firstAttribute="trailing" secondItem="9JH-2R-Zbq" secondAttribute="trailing" constant="60.5" id="dhV-yI-djn"/>
+                            <constraint firstItem="9JH-2R-Zbq" firstAttribute="centerX" secondItem="ejh-vq-gx8" secondAttribute="centerX" id="e07-oO-1fN"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="y0g-My-8Lm"/>
+                    </view>
+                    <connections>
+                        <outlet property="launchScreenLabel" destination="9JH-2R-Zbq" id="r6Z-Ew-V03"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="B1V-pM-8wx" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="130"/>
+        </scene>
+    </scenes>
+</document>
